@@ -1,0 +1,29 @@
+import javax.swing.JOptionPane;
+
+public class Soma 
+public static void main(String [] args){
+  JOptionPane.showMessageDialog(null, "Bem vindo ao meu primerio codigo que ira somar dois números");
+  
+  String entrada1 = JOptionPane.showInputDialog(null, "Insira o primeiro número da soma: ");
+  if (entrada1 == null) {
+    
+    JOprionPane.showMessageDialog(null,"Operação Cancelada");
+    return;
+  }
+  String entrada2 = JOptionPane.showInputDialog(null, "Insira o segundo número da Soma : ");
+  if (entrada2 == null){
+  JOptionPane.ahowMessageDialog(null," Operação cancelada");
+    return;
+  }
+  try {
+    double resultado = numero1 + numero 2 
+      JOptionPane.showMessageDialog(null, " O resultado da soma é: " + Resultado, "Resultado", JOptionPane.INFORMATION_MESSAGE);
+    
+  }
+  catch (NumberFormatException e) {
+    JOptiomnPane.showMessage.Dialog(null,"Erro: Por favor, digite números válidos.", JOptionPane.ERROR_MESSAGE);
+  }
+    
+  }
+  
+}
